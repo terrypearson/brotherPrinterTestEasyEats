@@ -47,9 +47,9 @@ public class MainActivity extends AppCompatActivity {
                 printInfo.printerModel = Model. QL_710W ;
                 printInfo.port = Port. NET ;
                 printInfo.ipAddress = "192.168.1.149";
-                printInfo.labelNameIndex = LabelInfo.QL700.W62 .ordinal();
+                printInfo.labelNameIndex = LabelInfo.QL700.W62.ordinal();
 
-//                printInfo.printMode = PrinterInfo.PrintMode.FIT_TO_PAPER;
+                printInfo.printMode = PrinterInfo.PrintMode.FIT_TO_PAGE;
 
                 printer.setPrinterInfo(printInfo);
 //PDF print
